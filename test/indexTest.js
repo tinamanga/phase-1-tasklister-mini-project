@@ -43,13 +43,13 @@ describe('Handling form submission', () => {
 
   before(() => {
     // Get references to the form, input, and task list
-    form = document.getElementById('create-task-form');  // Corrected to use 'create-task-form'
-    formInput = document.getElementById('new-task-description');  // Corrected to use 'new-task-description'
-    taskList = document.getElementById('tasks-list');  // Corrected to use 'tasks-list'
+    form = document.getElementById('create-task-form');
+    formInput = document.getElementById('new-task-description');
+    taskList = document.getElementById('tasks-list');
   });
 
   it('should add an event to the form and add input to webpage', () => {
-    // Ensure that form, input, and task list exist
+    // Ensure form, input, and task list are present
     expect(form).to.not.be.null;
     expect(formInput).to.not.be.null;
     expect(taskList).to.not.be.null;
