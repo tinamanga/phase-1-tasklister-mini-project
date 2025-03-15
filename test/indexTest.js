@@ -45,7 +45,7 @@ describe('Handling form submission', () => {
     // Get references to the form, input, and task list
     form = document.getElementById('create-task-form');
     formInput = document.getElementById('new-task-description');
-    taskList = document.getElementById('tasks-list');
+    taskList = document.getElementById('tasks');
   });
 
   it('should add an event to the form and add input to webpage', () => {
